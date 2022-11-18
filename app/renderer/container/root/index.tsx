@@ -2,15 +2,16 @@
  * @Author: hansen
  * @Date: 2022-11-08 16:41:11
  * @LastEditors: hansen
- * @LastEditTime: 2022-11-14 19:36:07
+ * @LastEditTime: 2022-11-18 16:45:15
  * @FilePath: \electron\visResumeMock\app\renderer\container\root\index.tsx
  */
 import React, { useEffect } from 'react';
 import { useHistory } from 'react-router';
 import { shell } from 'electron';
 import { useSelector, useDispatch } from 'react-redux';
-import { ROUTER_ENTRY, ROUTER_KEY } from '@src/container/common/constants/router';
-import { isHttpOrHttpsUrl } from '@src/container/common/utils/router';
+import { ROUTER_ENTRY, ROUTER_KEY } from '@src/common/constants/router';
+import { isHttpOrHttpsUrl } from '@src/common/utils/router';
+import MyButton from '@common/components/MyButton';
 import styles from './index.module.less';
 
 const Root = () => {
@@ -49,7 +50,7 @@ const Root = () => {
     <div className={styles['root']}>
       <div className={styles['container']}>
         <div className={styles['title']}>VisResumeMook</div>
-        <div className={styles['tips']}>一个模板简历制作平台, 让你的简历更加出众 ~</div>
+        <div className={styles['tips']}>一个模板<MyButton>按钮</MyButton>制作平台, 让你的<MyButton>按钮</MyButton>更加出众 ~</div>
         <div className={styles['action']}>
           {ROUTER_ENTRY.map((router: TSRouter.Item) => {
             return (

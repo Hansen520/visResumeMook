@@ -2,8 +2,8 @@
  * @Author: hansen
  * @Date: 2022-10-31 13:53:30
  * @LastEditors: hansen
- * @LastEditTime: 2022-10-31 14:37:01
- * @FilePath: \visResumeMock\app\renderer\global.d.ts
+ * @LastEditTime: 2022-11-16 18:01:31
+ * @FilePath: \electron\visResumeMock\app\renderer\global.d.ts
  */
 declare module '*.jpg' {
   const jpg: string;

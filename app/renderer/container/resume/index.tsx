@@ -2,13 +2,13 @@
  * @Author: hansen
  * @Date: 2022-11-08 17:04:16
  * @LastEditors: hansen
- * @LastEditTime: 2022-11-16 16:50:55
+ * @LastEditTime: 2022-11-18 16:39:44
  * @FilePath: \electron\visResumeMock\app\renderer\container\resume\index.tsx
  */
 import React from 'react';
 import './index.less';
-import fileAction from '../common/utils/file';
-import { getAppPath } from '../common/utils/appPath';
+import fileAction from '@common/utils/file';
+import { getAppPath } from '@common/utils/appPath';
 
 const Resume = () => {
   getAppPath().then((rootPath: string) => {
