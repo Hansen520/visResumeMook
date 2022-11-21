@@ -2,12 +2,12 @@
  * @Author: hansen
  * @Date: 2022-11-17 09:28:00
  * @LastEditors: hansen
- * @LastEditTime: 2022-11-18 18:12:37
- * @FilePath: \electron\visResumeMock\app\renderer\common\components\MyButton\index.tsx
+ * @LastEditTime: 2022-11-21 10:52:13
+ * @FilePath: \visResumeMock\app\renderer\common\components\MyButton\index.tsx
  */
 import React from 'react';
 import classnames from 'classnames';
-import './index.less';
+import styles from './index.less';
 
 export interface Button {
     /**
@@ -51,7 +51,7 @@ export interface Button {
                 ...style,
                 width: width
             }}
-            className={classnames('es-button', {
+            className={classnames(styles['es-button'], {
                 [`es-button-${size}`]: true,
                 'es-button-disabled': disabled,
                 'es-button-border': border

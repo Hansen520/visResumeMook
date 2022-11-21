@@ -2,8 +2,8 @@
  * @Author: hansen
  * @Date: 2022-11-09 11:00:56
  * @LastEditors: hansen
- * @LastEditTime: 2022-11-09 11:07:31
- * @FilePath: \visResumeMock\app\renderer\container\common\constants\router.ts
+ * @LastEditTime: 2022-11-21 10:05:31
+ * @FilePath: \visResumeMock\app\renderer\common\constants\router.ts
  */
 // 模块路径
 const ROUTER = {
@@ -28,7 +28,7 @@ export const ROUTER_ENTRY: TSRouter.Item[] = [
   {
     url: ROUTER.resume,
     key: ROUTER_KEY.resume,
-    text: '简历',
+    text: '概述',
   },
   {
     url: 'https://github.com/PDKSophia/visResumeMook',
