@@ -2,8 +2,8 @@
  * @Author: hansen
  * @Date: 2022-11-21 09:54:31
  * @LastEditors: hansen
- * @LastEditTime: 2022-11-22 11:08:54
- * @FilePath: \visResumeMock\app\renderer\container\templates\templateOne\components\Avatar\index.tsx
+ * @LastEditTime: 2022-11-22 11:16:10
+ * @FilePath: \visResumeMock\app\renderer\container\resume\ResumeContent\UseTemplate\templateOne\components\Avatar\index.tsx
  */
 /**
  * @desc 头像
@@ -16,7 +16,7 @@
  function Avatar() {
    return (
      <div className={styles["box"]}>
-       <div className="avatar">
+       <div className={styles["avatar"]}>
          <img src={AvatarImage} />
        </div>
      </div>
