@@ -1,8 +1,8 @@
 /*
  * @Author: hansen
  * @Date: 2022-10-28 16:43:44
- * @LastEditors: hansen
- * @LastEditTime: 2022-11-16 16:46:01
+ * @LastEditors: Please set LastEditors
+ * @LastEditTime: 2023-12-27 17:06:00
  * @FilePath: \electron\visResumeMock\app\main\electron.ts
  */
 /**

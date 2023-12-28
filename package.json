@@ -15,7 +15,7 @@
   "build": {
     "appId": "visResumeMook.ElectronReact",
     "productName": "visResumeMook",
-    "copyright": "Copyright © 2022 ${author}",
+    "copyright": "Copyright © 2023 ${author}",
     "files": [
       "dist/**/*",
       "package.json",
